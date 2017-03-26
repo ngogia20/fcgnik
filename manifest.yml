@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: fcgnik
+  host: fcgnik
+  disk_quota: 1024M
+  services:
+  - fcgnik-cloudantNoSQLDB
+  - fcgnik-iotf-service
